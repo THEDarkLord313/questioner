@@ -1,4 +1,5 @@
-﻿using System;
+//mohammad mahdi almasi ostad in ro ba komak kasi zadam chon mariz bodam v halam kheili bad bod on yeki ro khodam neveshtam ba esm tamrin almasi goftam inam bezarm chon chiz tamizi shd
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -31,7 +32,7 @@ namespace Questioner
                         }
 
                         Console.WriteLine($"Your children names are :{string.Join(", ", childrenNamesArray)}");
-                        Console.ReadKey(); // Zert baste nashe barname
+                        Console.ReadKey(); 
                     }
                     else
                     {
@@ -44,14 +45,12 @@ namespace Questioner
                     if (Console.ReadLine().ToUpper().Equals(YES))
                     {
                         Console.WriteLine("You're doing the right thing");
-                        // Inja mitooni code bala ro estefade koni o esm bache hasho dobare beporsi
-                        // Behtare 2ta code ro eynan copy/paste nakoni.
-                        // Code haye ye function bkon. Anjam nmidinam chon fekonam nagofte behetoon
+                       
                     }
                     else
                     {
                         Console.WriteLine("Well that's not all your idea tbh :-)) Come back later if you've changed your mind");
-                        Console.ReadKey(); // Zert baste nashe barname
+                        Console.ReadKey(); 
                     }
                 }
 
@@ -64,7 +63,7 @@ namespace Questioner
                     Console.WriteLine("Cool :-) What's his/her name?");
                     string name = Console.ReadLine();
                     Console.WriteLine($"I hope you and {name} get married soon and live a happy life. :D");
-                    Console.ReadKey(); // Zert baste nashe barname
+                    Console.ReadKey(); 
                 }
                 else
                 {
